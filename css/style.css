@@ -32,7 +32,7 @@
     transform-origin:250px 250px;
 }
 svg{
-    max-width: 40vmin;
+    max-width: 80vmin;
 }
 @keyframes rotate{
     to{
@@ -42,7 +42,7 @@ svg{
     }
     0%{
         to
-      }
+    }
     25%{
         transform: rotate(45deg);
     }
@@ -74,4 +74,26 @@ div.slide-left h2 {
     margin-left: 0%;
     width: 100%;
   }
+}
+/*About-------------------------------------*/
+#aboutMe {
+    font-family: poppins;
+    font-weight: 400;
+    text-align: center;
+}
+#pBorder {
+    padding: 0px;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+    box-shadow: rgb(100, 122, 163);
+}
+#pBorderr {
+    padding: 0px;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+    box-shadow: rgb(100, 122, 163);
 }
