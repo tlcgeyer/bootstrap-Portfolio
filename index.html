@@ -27,7 +27,7 @@
 </head>
 <body>                           
     <!--NAVBAR------------------------------------------------------------>                   
-    <nav class="navbar navbar-expand-lg sticky-lg-top">
+    <!-- <nav class="navbar navbar-expand-lg sticky-lg-top">
         <div class="container-fluid">
             <a href="./index.html" class="tlg">TLG
             </a>
@@ -62,7 +62,7 @@
             </ul>
         </div>
         </div>
-    </nav>
+    </nav> -->
     <!--NAVBAR-END----------------------------------------------------------->
 
 
@@ -72,13 +72,13 @@
         <section class="container" id="home">
             <h1 id="asf">Aspiring <span>Full-stack Developer</span></h1>
             
-            <div class="slide-left">
+            <!-- <div class="slide-left">
                 <h2 id="myname">Tamlin Leigh <span>Geyer</span></h2>
-            </div>
+            </div> -->
 
-            <div class="rotate">
-                <div class="inner">
-                    <!--<img src="https://i.postimg.cc/V6s4Qgfm/hm.png" alt="whale" lazy="loading">-->
+            <div class="rotate end-100">
+                <div class="end-100 bottom-0">
+                    <img src="https://i.postimg.cc/V6s4Qgfm/hm.png" alt="whale" lazy="loading">
                 </div>
             </div>
             
@@ -113,33 +113,34 @@
 
         </section>
         <section class="container" id="contacts">
-            <h2>Let's stay in contact</h2>
-            <div class="cont">
-
-                <form>
-                    <div class="input-group">
-                        <input type="text" id="name">
-                        <label for="name"><i class="fas fa-user"></i> Name...</label>
-                    </div>
-                    <div class="input-group">
-                        <input type="text" id="number">
-                        <label for="number"><i class="fas fa-phone-square-alt"></i>Phone No...</label>
-                    </div>
-                    <div class="input-group">
-                        <input type="email" id="email">
-                        <label for="email"><i class="fas fa-envelope"></i>Email Address...</label>
-                    </div>
-                    <div class="input-group">
-                        <textarea id="message" rows="4"></textarea>
-                        <label for="message"><i class="fas fa-comments"></i>Your message</label>
-                    </div>
-                    <button type="submit"><i class="fas fa-paper-plane"></i>Submit</button>   
-                  
-                </form>
-            </div>
-            
-
-
+            <h2 id="contMe">Contact Me</h2>
+            <form action="#">
+                <div class="mb-3 mt-3">
+                  <label for="firstname" class="form-label">First Name:</label>
+                  <input type="firstname" class="form-control" id="firstname" placeholder="Enter First Name" name="firstname">
+                </div>
+                <div class="mb-3 mt-3">
+                  <label for="lastname" class="form-label">Last Name:</label>
+                  <input type="lastname" class="form-control" id="lastname" placeholder="Enter Last Name" name="lastname">
+                </div>
+                <div class="mb-3 mt-3">
+                  <label for="email" class="form-label">Email:</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                </div>
+                <div class="mb-3">
+                  <label for="pwd" class="form-label">Password:</label>
+                  <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                </div>
+                <div class="form-check mb-3">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                  </label>
+                </div>
+              <label for="message">Your Message:</label>
+              <textarea class="form-control" rows="5" id="message" name="text"></textarea>
+              
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
         </section>
     </main>
 

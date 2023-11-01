@@ -5,8 +5,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    justify-content: center;
+    align-items: center;
+}
 .navbar-nav {
-    font-family: poppins;
+    font-family: 'poppins';
     font-weight: 500;
     text-shadow: #414141;
     gap: 35px;
@@ -36,17 +40,18 @@ svg{
 }
 @keyframes rotate{
     to{
-        transform: rotate(360deg);
+        transform: rotate(45deg);
     }  
     from  { 
+        transform: rotate(90deg);
     }
-    0%{
-        to
+     25%{
+    transform: rotate(360deg);
     }
-    25%{
-        transform: rotate(45deg);
-    }
+    
 }
+
+
 
 /*continuing home------*/
 #myname {
@@ -56,11 +61,11 @@ svg{
     margin-right: 80%;
 }
 
-div.slide-left {
+.slide-left {
   width:100%;
   overflow:hidden;
 }
-div.slide-left h2 {
+.slide-left h2 {
   animation: slide-left 10s;
 }
 
@@ -77,7 +82,7 @@ div.slide-left h2 {
 }
 /*About-------------------------------------*/
 #aboutMe {
-    font-family: poppins;
+    font-family: 'poppins';
     font-weight: 400;
     text-align: center;
 }
@@ -99,43 +104,11 @@ div.slide-left h2 {
 }
 
 /*contact form*/
-.cont {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
+#contMe {
+    text-align: center;
+    font-family: 'poppins'
 }
-form {
-    width: 100%;
-    max-width: 600px;
+#message {
+    margin-bottom: 30px;
 }
-.input-group {
-    margin-bottom: 50px;
-    position: relative;
-}
-input.textarea {
-    width: 100%;
-    padding: 10px;
-    outline: 0;
-    border: 1px solid lightskyblue;
-    background: transparent;
-    font-size: small;
-}
-label {
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    padding: 10px;
-    color: black;
-    cursor: text;
-}
-button {
-    padding: 20px 0;
-    color: black;
-    outline: none;
-    background: 1px solid #ffff;
-    width: 100%;
-    cursor: pointer;
 
-}
