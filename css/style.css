@@ -9,10 +9,10 @@ body{
     justify-content: center;
     align-items: center;
 }
+/*NAVBAR-------------------------------------*/
 .navbar-nav {
     font-family: 'poppins';
     font-weight: 500;
-    text-shadow: #414141;
     gap: 35px;
 }
 .tlg {
@@ -23,37 +23,18 @@ body{
     letter-spacing: 0.5px;
     font-weight: 600px;
 }
+#asf {
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
 #asf span {
     color: #63D2FF;
     font-weight: 400;
-    margin-bottom: 60%;
     margin-right: 52%;
 }
-/*whale img to rotate------------------------*/
-.rotate {
-    margin-bottom: 50%;
-    animation: rotate 25s linear infinite;
-    transform-origin:250px 250px;
-}
-svg{
-    max-width: 80vmin;
-}
-@keyframes rotate{
-    to{
-        transform: rotate(45deg);
-    }  
-    from  { 
-        transform: rotate(90deg);
-    }
-     25%{
-    transform: rotate(360deg);
-    }
-    
-}
 
-
-
-/*continuing home------*/
+/*Landing page------*/
 #myname {
     color: #63D2FF;
     font-weight: 400;
@@ -61,6 +42,7 @@ svg{
     margin-right: 80%;
 }
 
+/*my name that slides in-------------------------------------------*/
 .slide-left {
   width:100%;
   overflow:hidden;
@@ -79,28 +61,36 @@ svg{
     margin-left: 0%;
     width: 100%;
   }
+
 }
+
+/*the whale animation 
+.container {
+    perspective: 1000px;  (Set the perspective for 3D transformations )
+    position: relative;  (Position the container )
+}
+  
+  .container img {
+    position: absolute; (Position the image )
+    top: 0;  (Position the image at the top )
+    right: 20px;  (Position the image at the right )
+    animation: diveAnimation 10s forwards;  (Apply the animation )
+  }
+  
+  @keyframes diveAnimation {
+    0% {
+      transform: translate(0, 0); (Start position )
+    }
+    100% {
+      transform: translate(-50%, -50%)  (End position )
+    }
+  }*/
+
 /*About-------------------------------------*/
 #aboutMe {
     font-family: 'poppins';
     font-weight: 400;
     text-align: center;
-}
-#pBorder {
-    padding: 0px;
-    justify-content: center;
-    width: auto;
-    height: auto;
-    border-radius: 25px;
-    box-shadow: rgb(100, 122, 163);
-}
-#pBorderr {
-    padding: 0px;
-    justify-content: center;
-    width: auto;
-    height: auto;
-    border-radius: 25px;
-    box-shadow: rgb(100, 122, 163);
 }
 
 /*contact form*/
