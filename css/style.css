@@ -1,45 +1,45 @@
-*,
-*::after,
-*::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 body{
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 /*NAVBAR-------------------------------------*/
 .navbar-nav {
-    font-family: 'poppins';
-    font-weight: 500;
-    gap: 35px;
+  font-family: 'poppins';
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  
 }
 .tlg {
-    margin-left: 35px;
-    font-size: 2.1rem;
-    color: black;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    font-weight: 600px;
+  margin-left: 35px;
+  font-size: 2.1rem;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600px;
 }
 #asf {
-    justify-content: center;
-    align-items: center;
-    margin-top: 80px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
 }
 #asf span {
-    color: #63D2FF;
-    font-weight: 400;
-    margin-right: 52%;
+  color: #63D2FF;
+  font-weight: 400;
+  margin-right: 52%;
+}
+::after,
+.bi bi-list {
+  
 }
 
 /*Landing page------*/
 #myname {
-    color: #63D2FF;
-    font-weight: 400;
-    margin-bottom: 60%;
-    margin-right: 80%;
+  color: #63D2FF;
+  font-weight: 400;
+  margin-bottom: 60%;
+  margin-right: 80%;
 }
 
 /*my name that slides in-------------------------------------------*/
@@ -61,44 +61,56 @@ body{
     margin-left: 0%;
     width: 100%;
   }
-
 }
 
 /*the whale animation 
 .container {
-    perspective: 1000px;  (Set the perspective for 3D transformations )
-    position: relative;  (Position the container )
+  perspective: 1000px;  (Set the perspective for 3D transformations )
+  position: relative;  (Position the container )
 }
   
   .container img {
-    position: absolute; (Position the image )
-    top: 0;  (Position the image at the top )
-    right: 20px;  (Position the image at the right )
-    animation: diveAnimation 10s forwards;  (Apply the animation )
+  position: absolute; (Position the image )
+  top: 0;  (Position the image at the top )
+  right: 20px;  (Position the image at the right )
+  animation: diveAnimation 10s forwards;  (Apply the animation )
   }
   
   @keyframes diveAnimation {
     0% {
-      transform: translate(0, 0); (Start position )
+    transform: translate(0, 0); (Start position )
     }
     100% {
-      transform: translate(-50%, -50%)  (End position )
+  transform: translate(-50%, -50%)  (End position )
     }
   }*/
 
 /*About-------------------------------------*/
 #aboutMe {
-    font-family: 'poppins';
-    font-weight: 400;
-    text-align: center;
+  font-family: 'poppins';
+  font-weight: 400;
+  text-align: center;
 }
-
+.pBorder {
+  flex-basis: 31%;
+  background: #D9DBF1;
+  border-radius: 10px;
+  margin: 1%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  font-family: 'poppins';
+  text-align: justify;
+}
+.pBorder:hover {
+  box-shadow: 0 0 20px 0px rgb(14,28,54);
+}
 /*contact form*/
 #contMe {
-    text-align: center;
-    font-family: 'poppins'
+  text-align: center;
+  font-family: 'poppins'
 }
 #message {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
