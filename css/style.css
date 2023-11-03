@@ -181,3 +181,11 @@ body {
   transition: 0.5s;
   font-family: 'poppins';
 }
+
+/*footer--------------------------------------------------*/
+#footsy {
+  font-family: 'poppins';
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
