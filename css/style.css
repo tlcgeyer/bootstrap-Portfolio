@@ -62,27 +62,11 @@ body{
   }
 }
 
-/*the whale animation 
-.container {
-  perspective: 1000px;  (Set the perspective for 3D transformations )
-  position: relative;  (Position the container )
+#coverr {
+  background-size: cover;
+  m
+
 }
-  
-  .container img {
-  position: absolute; (Position the image )
-  top: 0;  (Position the image at the top )
-  right: 20px;  (Position the image at the right )
-  animation: diveAnimation 10s forwards;  (Apply the animation )
-  }
-  
-  @keyframes diveAnimation {
-    0% {
-    transform: translate(0, 0); (Start position )
-    }
-    100% {
-  transform: translate(-50%, -50%)  (End position )
-    }
-  }*/
 
 /*About-------------------------------------*/
 #aboutMe {
