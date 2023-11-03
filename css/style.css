@@ -130,16 +130,25 @@ body {
 .row:hover {
   box-shadow: 0 0 20px 0px rgb(14,28,54);
 }
-#resume {
-  justify-content: center;
-  align-items: center;
-}
+
 /*skills--------------------------------------------------*/
 #skillY {
   text-align: center;
   font-family: 'poppins';
   font-weight: 400;
   color: white;
+}
+.card-container {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  place-items: center;
+}
+
+.card {
+  /* Styles for your card */
+  width: 150px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
 }
 
 /*Testimony----------------------------------------------*/
