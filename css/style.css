@@ -105,6 +105,17 @@ body{
 .pBorder:hover {
   box-shadow: 0 0 20px 0px rgb(14,28,54);
 }
+
+/*Testimony----------------------------------------------*/
+#testyy {
+  font-family: 'poppins';
+  font-weight: 400;
+  text-align: center;
+}
+#para {
+  font-family: 'poppins';
+}
+
 /*contact form*/
 #contMe {
   text-align: center;
@@ -122,6 +133,5 @@ body{
   box-sizing: border-box;
   transition: 0.5s;
   font-family: 'poppins';
-  
 }
 
