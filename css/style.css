@@ -138,17 +138,9 @@ body {
   font-weight: 400;
   color: white;
 }
-.card-container {
-  display: grid;
-  align-content: center;
-  justify-content: center;
-  place-items: center;
-}
-
-.card {
-  /* Styles for your card */
-  width: 150px; /* Adjust the width as needed */
-  height: 100px; /* Adjust the height as needed */
+#par {
+  color: white;
+  font-family: 'poppins';
 }
 
 /*Testimony----------------------------------------------*/
