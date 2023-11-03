@@ -62,12 +62,6 @@ body{
   }
 }
 
-#coverr {
-  background-size: cover;
-  m
-
-}
-
 /*About-------------------------------------*/
 #aboutMe {
   font-family: 'poppins';
@@ -125,6 +119,14 @@ body {
 #par {
   color: white;
   font-family: 'poppins';
+}
+
+/*projecty*/
+.projecty {
+  text-align: center;
+  font-family: 'poppins';
+  font-weight: 400;
+  color: white;
 }
 
 /*Testimony----------------------------------------------*/
